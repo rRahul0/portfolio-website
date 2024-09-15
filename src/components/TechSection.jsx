@@ -54,7 +54,7 @@ export default function TechSection() {
                 <motion.div initial="initial" animate="animate" variants={iconVariants(3)} >
                     <SiMongodb className="text-5xl sm:text-7xl text-green-400" />
                 </motion.div>
-                <motion.div initial="initial" animate="animate" variants={iconVariants(5)} >
+                <motion.div initial="initial" animate="animate" variants={iconVariants(4.5)} >
                     <SiExpress className="text-5xl sm:text-7xl text-gray-500" />
                 </motion.div>
                 <motion.div initial="initial" animate="animate" variants={iconVariants(2)} >
