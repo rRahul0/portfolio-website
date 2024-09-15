@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import imageProfile from "../assets/stand_logo-removebg-preview.png";
-import {heroContent} from "../data/info";
+import { heroContent } from "../data/info";
 
 const containerVariants = {
     hidden: {
@@ -39,8 +39,8 @@ export default function HeroSection() {
                             height={450}
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 1, delay: 1.5 }} 
-                            />
+                            transition={{ duration: 1, delay: 1.5 }}
+                        />
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2">
@@ -62,21 +62,21 @@ export default function HeroSection() {
                         <motion.p
                             variants={childVariants}
                             className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">{heroContent}</motion.p>
-<div className="flex gap-10">
-                        <motion.a
-                            variants={childVariants}
-                            href="/resume.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            download="Rahul_Karmakar_Resume.pdf"
-                            className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 ">Download Resume</motion.a>
+                        <div className="flex gap-10">
                             <motion.a
-                            variants={childVariants}
-                            href="/resume.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 ">See Resume</motion.a>
-                    </div>
+                                variants={childVariants}
+                                href="/resume.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                download="Rahul_Karmakar_Resume.pdf"
+                                className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 ">Download Resume</motion.a>
+                            <motion.a
+                                variants={childVariants}
+                                href="/resume.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 ">See Resume</motion.a>
+                        </div>
                     </motion.div>
 
                 </div>
