@@ -2,12 +2,20 @@ const heroContent = "I am a passionate Full Stack Developer with a strong founda
 
 const projects =[
     {
+        image : "/jwt-auth-utility.png",
+        title : "jwt-auth-utility",
+        description : "A lightweight Node.js package simplifying JWT handling for secure authentication. Easily configure token generation, validation, expiration, and refresh tokens—perfect for enhancing security in any authentication flow.",
+        tech : ["Node.js", "jsonwebtoken", "bcrypt"],
+        // github : "https://github.com/rRahul0/ChatApp",
+        demo : "https://www.npmjs.com/package/jwt-auth-utility",
+
+    },{
         image : "/neochat.png",
         title : "NeoChat",
         description : "NeoChat is a real-time chat application using the MERN stack and Socket.io. It features JWT-based user authentication, online/offline status, encrypted messaging, group chats, channels, and file sharing. Hosted on Vercel and Render, it provides a seamless communication experience with real-time updates and efficient search functionality.",
         tech : ["ReactJs","Redux", "Express", "MongoDB", "Node.js", "Web Socket", "JWT", "Cloudinary", "Tailwind CSS"],
         github : "https://github.com/rRahul0/ChatApp",
-        demo : "https://chat-app-tau-taupe-73.vercel.app/",
+        demo : "https://neochat.rahulkarmakar.me",
 
     },{
         image : "/studynotion.png",
@@ -15,7 +23,7 @@ const projects =[
         description : "StudyNotion is a full-stack EdTech platform for instructors to create courses and students to purchase and review them. It offers dashboards for Students, Instructors, and Admins, secure payments via Razorpay, user authentication, and automated emails. Responsive design, hosted on Vercel and Render, with media storage on Cloudinary.",
         tech : ["ReactJs","Redux", "Express", "MongoDB", "Node.js", "Razorpay", "JWT", "Cloudinary", "Tailwind CSS"],
         github : "https://github.com/rRahul0/StudyNotion",
-        demo : "https://study-notion-swart-three.vercel.app/",
+        demo : "https://studynotion.rahulkarmakar.me",
 
     },{
         image : "/dev detective.png",

@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs, FaAws } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiExpress, SiMongodb, SiMysql, SiTailwindcss } from "react-icons/si";
-import { DiCss3, DiHtml5, DiJava, DiJavascript1, DiPython } from "react-icons/di";
+import { DiCss3, DiHtml5, DiJava, DiJavascript1, DiPython, DiRedis } from "react-icons/di";
+
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -67,6 +68,12 @@ export default function TechSection() {
                 </motion.div>
                 <motion.div initial="initial" animate="animate" variants={iconVariants(2.5)}>
                     <DiJava className="text-5xl sm:text-7xl text-red-500" />
+                </motion.div>
+                <motion.div initial="initial" animate="animate" variants={iconVariants(7.7)}>
+                    <FaAws className="text-5xl sm:text-7xl text-yellow-400" />
+                </motion.div>
+                <motion.div initial="initial" animate="animate" variants={iconVariants(3)}>
+                    <DiRedis className="text-5xl sm:text-7xl text-red-500" />
                 </motion.div>
             </motion.div>
         </div>
