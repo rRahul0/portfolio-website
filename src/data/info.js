@@ -5,7 +5,7 @@ const projects =[
         image : "/jwt-auth-utility.png",
         title : "jwt-auth-utility",
         description : "A lightweight Node.js package simplifying JWT handling for secure authentication. Easily configure token generation, validation, expiration, and refresh tokens—perfect for enhancing security in any authentication flow.",
-        tech : ["Node.js", "jsonwebtoken", "bcrypt"],
+        tech : ["Node.js", "jsonwebtoken"],
         // github : "https://github.com/rRahul0/ChatApp",
         demo : "https://www.npmjs.com/package/jwt-auth-utility",
 
