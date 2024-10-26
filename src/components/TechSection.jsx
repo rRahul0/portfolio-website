@@ -72,7 +72,7 @@ export default function TechSection() {
                 <motion.div initial="initial" animate="animate" variants={iconVariants(7.7)}>
                     <FaAws className="text-5xl sm:text-7xl text-yellow-400" />
                 </motion.div>
-                <motion.div initial="initial" animate="animate" variants={iconVariants(3)}>
+                <motion.div initial="initial" animate="animate" variants={iconVariants(2)}>
                     <DiRedis className="text-5xl sm:text-7xl text-red-500" />
                 </motion.div>
             </motion.div>
