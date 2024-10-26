@@ -60,7 +60,7 @@ const projects =[
 const contact = {
     address : "Kolkata, India",
     // phoneno : "+91 8101555867",
-    email : "karmakarrahul503@gmail.com",
+    email : "rahulkarmakar28112002@gmail.com",
 }
 
 const tech = [
