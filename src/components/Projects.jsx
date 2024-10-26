@@ -34,8 +34,8 @@ export default function Projects() {
                             <div className="flex flex-col lg:flex-row lg:gap-20 gap-4">
                                 <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
                                 <div className="flex items-center gap-5">
-                                    {project.github ?? <a href={project.github} target="_blank" className="h-8 w-10 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"><FaGithub className="w-full h-full text-2xl" /></a>}
-                                    {project.demo ?? <a href={project.demo} target="_blank" className="h-8 w-10 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"><FaGlobe className="w-full h-full text-2xl" /></a>}
+                                    {project.github && <a href={project.github} target="_blank" className="h-8 w-10 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"><FaGithub className="w-full h-full text-2xl" /></a>}
+                                    {project.demo && <a href={project.demo} target="_blank" className="h-8 w-10 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"><FaGlobe className="w-full h-full text-2xl" /></a>}
                                 </div>
                             </div>
                             <p className="mb-4 text-stone-400">{project.description}</p>
